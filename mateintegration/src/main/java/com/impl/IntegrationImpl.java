@@ -24,7 +24,6 @@ public class IntegrationImpl implements Integration {
      * @param s ItemId
      * @return A JSON representation of a Purchase if the call is successful.
      */
-
     public Purchase buy(String s) {
         String url = baseUrl + "/" + developerId + "/buy/" + s;
         RestClient rest = new RestClient();

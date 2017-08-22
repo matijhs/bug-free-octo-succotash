@@ -1,12 +1,14 @@
 package com.impl;
 
-import com.flexionmobile.codingchallenge.integration.Purchase;
 import com.google.gson.annotations.SerializedName;
-
 import java.util.List;
 
 /**
  * Created by Mate on 2017.08.22..
+ */
+
+/**
+ * Helper class for parsing response with list.
  */
 public class PurchasesDTO {
     @SerializedName("purchases")
